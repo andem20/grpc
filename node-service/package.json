@@ -1,0 +1,23 @@
+{
+  "name": "service",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@grpc/grpc-js": "^1.8.17",
+    "@types/google-protobuf": "^3.15.6",
+    "grpc-tools": "^1.12.4",
+    "grpc_tools_node_protoc_ts": "^5.3.3",
+    "ts-node": "^10.9.1",
+    "ts-proto": "^1.151.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@bufbuild/buf": "^1.23.1"
+  }
+}
